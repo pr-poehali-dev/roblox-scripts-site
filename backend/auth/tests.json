@@ -1,0 +1,1 @@
+{"tests": [{"name": "OPTIONS request", "method": "OPTIONS", "path": "/", "expectedStatus": 200}, {"name": "Login without body", "method": "POST", "path": "/?action=login", "expectedStatus": 400, "expectedBody": {"error": "string"}, "bodyMatcher": "partial"}]}
